@@ -1,0 +1,16 @@
+.flower{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    background: url("images/flower.png") no-repeat;
+    width: 200px;
+    height: 200px;
+    -webkit-background-size:100%;
+    background-size:100%;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 10000;
+}
