@@ -2,7 +2,7 @@
     position: absolute;
     top: -28px;
     right: 0;
-    background: url("images/flower.png") no-repeat;
+    background: url("../images/flower.png") no-repeat;
     width: 200px;
     height: 200px;
     -webkit-background-size:100%;
