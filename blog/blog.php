@@ -20,7 +20,7 @@
         </div>
         <div class="u_bar_body_nav" >
             <ul>
-                <li class="active"><a href="index.html">首页</a></li>
+                <li class="active"><a href="index.html">首页1122</a></li>
                 <li ><a href="person/person.html">个人简历</a></li>
                 <li ><a href="sys/index.html">学习体系</a></li>
                 <li ><a href="message/message.php">留言板</a></li>
