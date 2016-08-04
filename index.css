@@ -5,6 +5,12 @@
     border:0;
     list-style: none;
 }
+.content980{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 /*导航*/
 a{
     text-decoration: none;
