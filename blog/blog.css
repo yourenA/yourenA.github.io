@@ -259,71 +259,7 @@ a{
     top: -50px;
 }
 
-.footer{
-    width: 100%;
-    height: 200px;
-    background: #222;
-}
-.footer-content{
-    position: relative;
-    margin: 0 auto;
-    width: 980px;
-    height: 200px;
-}
-.footer-left{
-    position: absolute;
-    left: 30px;
-    top: 20px;
-}
-.footer .footer-center{
-    position: absolute;
-    left: 273px;
-    top: 25px;
-    color: #FFFFFF;
-    font-size: 18px;
-    text-align: right;
-    line-height: 50px;
-}
-.footer .footer-right{
-    position: absolute;
-    left: 842px;
-    top: 40px;
-    color: #fff;
-    font-size: 18px;
-}
-.footer .footer-right .icon{
-    position: absolute;
-    left: -93px;
-    top: 50px;
-    width: 200px;
-    height: 50px;
-}
-.footer .footer-right img{
-    margin-left: 15px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-}
-.icon-content{
-    display: inline-block;
-    position: relative;
-}
-.icon-img{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    left: 50%;
-    margin-left: -70px;
-    bottom: 50px;
 
-    display: none;
-}
-.footer .footer-right .icon-content:hover .icon-img{
-    display: block;
-    z-index: 9999;
-}
 
 
 

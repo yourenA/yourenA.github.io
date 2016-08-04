@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>友人A--BLOG</title>
+    <link rel="icon" href="../jibenfa/ico.ico" type="image/x-ico" />
     <link rel="stylesheet" href="blog.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="footer.css">
-
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="footer.css">-->
     <script src="blog.js"></script>
 
 </head>
@@ -15,17 +16,20 @@
 <div class="u_bar">
     <div class="u_bar_body">
         <div class="u_bar_body_logo">
-            <a href="#"><img src="images/yourenA.jpg" alt="友人A"></a>
+            <a href="#"><img src="https://yourena.github.io/images/yourenA.jpg" alt="友人A"></a>
         </div>
         <div class="u_bar_body_nav" >
             <ul>
-                <li class="active"><a href="../index/index.html">首页</a></li>
-                <li ><a href="../person/person.html">个人简历</a></li>
-                <li ><a href="../sys/index.html">学习体系</a></li>
-                <li ><a href="../demo/demo.html">Demo</a></li>
+                <li class="active"><a href="index.html">首页</a></li>
+                <li ><a href="person/person.html">个人简历</a></li>
+                <li ><a href="sys/index.html">学习体系</a></li>
+                <li ><a href="message/message.php">留言板</a></li>
+                <li ><a href="blog/blog.php">鉴,镜也</a></li>
+                <li ><a href="demo/demo.html">Demo</a></li>
 
             </ul>
         </div>
+        <div class="flower"></div>
     </div>
 </div>
 
@@ -134,9 +138,9 @@
         </div>
     </div>
 </div>
-<div class="footer" >
-    <div class="footer-content">
-        <span class="footer-left"><img src="images/yourenA2.png" alt=""></span>
+<div class="footer">
+    <div class="content980">
+        <span class="footer-left"><img src="https://yourena.github.io/images/yourenA2.png" alt=""></span>
         <div class="footer-center">
             <p >本网站部分DEMO改编参考自网络，在此向原作者表示感谢</p>
             <p >站在巨人的肩膀上能够看得更远</p>
@@ -144,27 +148,17 @@
         </div>
         <div class="footer-right">
             <p>Contact Me</p>
-            <div class="icon">
-                <div class="icon-content">
-                    <div class="icon-img" style="background: url('../jibenfa/qrcode_1456280291803.png');background-size: 100%;"></div>
-                    <a href="javascript:;"><img src="../jibenfa/qq.png" alt=""></a>
-                </div>
-                <div class="icon-content">
-                    <div class="icon-img" style="background: url('../jibenfa/gen.png');background-size: 100%;"></div>
-                    <a href="javascript:;"><img src="../jibenfa/wb.png" alt=""></a>
-                </div>
-                <div class="icon-content">
-                    <div class="icon-img" style="background: url('../jibenfa/mmqrcode1456277113155.png');background-size: 100%;"></div>
-                    <a href="javascript:;"><img src="../jibenfa/wx.png" alt=""></a>
-                </div>
-            </div>
-
+        <span class="icon">
+            <a href=""><img src="https://yourena.github.io/images/qq.png" alt=""></a>
+            <a href=""><img src="https://yourena.github.io/images/wb.png" alt=""></a>
+            <a href=""><img src="https://yourena.github.io/images/wx.png" alt=""></a>
+        </span>
 
         </div>
     </div>
 </div>
 <a href="javascript:;" class="btn" id="btn" title="回到顶部">
-    <img src="images/turn-top.png" alt="">
+    <img src="../jibenfa/turn-top.png" alt="">
     <span id="top-span">返回顶部</span>
 </a>
 </body>

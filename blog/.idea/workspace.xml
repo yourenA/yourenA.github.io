@@ -25,13 +25,23 @@
       <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state vertical-scroll-proportion="-1.5714285">
+              <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="162" selection-end-column="4" />
               <folding>
-                <marker date="1457924082001" expanded="true" signature="1835:1894" placeholder="select count..htmlbloginfo..." />
-                <marker date="1457924082001" expanded="true" signature="2229:2289" placeholder="select * fro..htmlbloginfo..." />
-                <marker date="1457924082001" expanded="true" signature="3817:3829" placeholder="..." />
+                <marker date="1470292562783" expanded="true" signature="2043:2102" placeholder="select count..htmlbloginfo..." />
+                <marker date="1470292562783" expanded="true" signature="2437:2497" placeholder="select * fro..htmlbloginfo..." />
+                <marker date="1470292562783" expanded="true" signature="4025:4037" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.914286">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,12 +49,12 @@
       <file leaf-file-name="blogcss.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogcss.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state vertical-scroll-proportion="-23.114286">
+              <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
               <folding>
-                <marker date="1458805842141" expanded="true" signature="1754:1812" placeholder="select count..cssbloginfo..." />
-                <marker date="1458805842141" expanded="true" signature="2147:2206" placeholder="select * fro..cssbloginfo..." />
-                <marker date="1458805842141" expanded="true" signature="3735:3747" placeholder="..." />
+                <marker date="1470293041584" expanded="true" signature="2042:2100" placeholder="select count..cssbloginfo..." />
+                <marker date="1470293041584" expanded="true" signature="2435:2494" placeholder="select * fro..cssbloginfo..." />
+                <marker date="1470293041584" expanded="true" signature="4023:4035" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -63,12 +73,12 @@
       <file leaf-file-name="blogjs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogjs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="52" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.6678281">
+              <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
               <folding>
-                <marker date="1457923108892" expanded="true" signature="1754:1811" placeholder="select count..jsbloginfo..." />
-                <marker date="1457923108892" expanded="true" signature="2146:2204" placeholder="select * fro..jsbloginfo..." />
-                <marker date="1457923108892" expanded="true" signature="3733:3745" placeholder="..." />
+                <marker date="1470293041588" expanded="true" signature="2042:2099" placeholder="select count..jsbloginfo..." />
+                <marker date="1470293041588" expanded="true" signature="2434:2492" placeholder="select * fro..jsbloginfo..." />
+                <marker date="1470293041588" expanded="true" signature="4021:4033" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -77,7 +87,7 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.74285716">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
@@ -87,8 +97,8 @@
       <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
+            <state vertical-scroll-proportion="-20.885714">
+              <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,10 +125,11 @@
         <option value="$PROJECT_DIR$/../messageBoard/liuyan (1).php" />
         <option value="$PROJECT_DIR$/blogSearch.php" />
         <option value="E:/BaiduYunDownload/index.html" />
-        <option value="$PROJECT_DIR$/blogjs.php" />
+        <option value="$PROJECT_DIR$/blog.css" />
+        <option value="$PROJECT_DIR$/footer.css" />
         <option value="$PROJECT_DIR$/blog.php" />
         <option value="$PROJECT_DIR$/blogcss.php" />
-        <option value="$PROJECT_DIR$/blog.css" />
+        <option value="$PROJECT_DIR$/blogjs.php" />
       </list>
     </option>
   </component>
@@ -162,7 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,7 +222,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +277,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25159913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -320,9 +331,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="130" selection-end-column="18" />
           <folding>
-            <marker date="1457924082001" expanded="true" signature="1835:1894" placeholder="select count..htmlbloginfo..." />
-            <marker date="1457924082001" expanded="true" signature="2229:2289" placeholder="select * fro..htmlbloginfo..." />
-            <marker date="1457924082001" expanded="true" signature="3817:3829" placeholder="..." />
+            <marker date="1470292562783" expanded="true" signature="2043:2102" placeholder="select count..htmlbloginfo..." />
+            <marker date="1470292562783" expanded="true" signature="2437:2497" placeholder="select * fro..htmlbloginfo..." />
+            <marker date="1470292562783" expanded="true" signature="4025:4037" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -332,9 +343,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
           <folding>
-            <marker date="1458805842141" expanded="true" signature="1754:1812" placeholder="select count..cssbloginfo..." />
-            <marker date="1458805842141" expanded="true" signature="2147:2206" placeholder="select * fro..cssbloginfo..." />
-            <marker date="1458805842141" expanded="true" signature="3735:3747" placeholder="..." />
+            <marker date="1470293041584" expanded="true" signature="2042:2100" placeholder="select count..cssbloginfo..." />
+            <marker date="1470293041584" expanded="true" signature="2435:2494" placeholder="select * fro..cssbloginfo..." />
+            <marker date="1470293041584" expanded="true" signature="4023:4035" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -344,9 +355,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
           <folding>
-            <marker date="1457923108892" expanded="true" signature="1754:1811" placeholder="select count..jsbloginfo..." />
-            <marker date="1457923108892" expanded="true" signature="2146:2204" placeholder="select * fro..jsbloginfo..." />
-            <marker date="1457923108892" expanded="true" signature="3733:3745" placeholder="..." />
+            <marker date="1470293041588" expanded="true" signature="2042:2099" placeholder="select count..jsbloginfo..." />
+            <marker date="1470293041588" expanded="true" signature="2434:2492" placeholder="select * fro..jsbloginfo..." />
+            <marker date="1470293041588" expanded="true" signature="4021:4033" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -612,41 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08833522">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../messageBoard/messageBoard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029445074">
           <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1457924082001" expanded="true" signature="1835:1894" placeholder="select count..htmlbloginfo..." />
-            <marker date="1457924082001" expanded="true" signature="2229:2289" placeholder="select * fro..htmlbloginfo..." />
-            <marker date="1457924082001" expanded="true" signature="3817:3829" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <marker date="1458805842141" expanded="true" signature="1754:1812" placeholder="select count..cssbloginfo..." />
-            <marker date="1458805842141" expanded="true" signature="2147:2206" placeholder="select * fro..cssbloginfo..." />
-            <marker date="1458805842141" expanded="true" signature="3735:3747" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,31 +638,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogjs.php">
+    <entry file="file://$PROJECT_DIR$/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="52" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="52" />
-          <folding>
-            <marker date="1457923108892" expanded="true" signature="1754:1811" placeholder="select count..jsbloginfo..." />
-            <marker date="1457923108892" expanded="true" signature="2146:2204" placeholder="select * fro..jsbloginfo..." />
-            <marker date="1457923108892" expanded="true" signature="3733:3745" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-20.885714">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.914286">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.74285716">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.css">
+    <entry file="file://$PROJECT_DIR$/blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="-1.5714285">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="162" selection-end-column="4" />
+          <folding>
+            <marker date="1470292562783" expanded="true" signature="2043:2102" placeholder="select count..htmlbloginfo..." />
+            <marker date="1470292562783" expanded="true" signature="2437:2497" placeholder="select * fro..htmlbloginfo..." />
+            <marker date="1470292562783" expanded="true" signature="4025:4037" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.114286">
+          <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
+          <folding>
+            <marker date="1470293041584" expanded="true" signature="2042:2100" placeholder="select count..cssbloginfo..." />
+            <marker date="1470293041584" expanded="true" signature="2435:2494" placeholder="select * fro..cssbloginfo..." />
+            <marker date="1470293041584" expanded="true" signature="4023:4035" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogjs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6678281">
+          <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
+          <folding>
+            <marker date="1470293041588" expanded="true" signature="2042:2099" placeholder="select count..jsbloginfo..." />
+            <marker date="1470293041588" expanded="true" signature="2434:2492" placeholder="select * fro..jsbloginfo..." />
+            <marker date="1470293041588" expanded="true" signature="4021:4033" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
