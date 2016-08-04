@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <channel>
+
+        <item>
+            <title>Express结合Webpack的全栈自动刷新</title>
+            <description>1</description>
+            <pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate>
+            <link>
+                http://acgtofe.com/posts/2016/02/full-live-reload-for-express-with-webpack
+            </link>
+            <guid isPermaLink="true">
+                http://acgtofe.com/posts/2016/02/full-live-reload-for-express-with-webpack
+            </guid>
+        </item>
+        <item>
+            <title>更丰富的网页多图层效果：css混合模式</title>
+            <description>2</description>
+            <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+            <link>
+                http://acgtofe.com/posts/2016/01/blending-modes-adventure
+            </link>
+            <guid isPermaLink="true">
+                http://acgtofe.com/posts/2016/01/blending-modes-adventure
+            </guid>
+        </item>
+        <item>
+            <title>3d transform的坐标空间及位置</title>
+            <description>3</description>
+            <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+            <link>http://acgtofe.com/posts/2015/12/xyz-3d-in-css</link>
+            <guid isPermaLink="true">http://acgtofe.com/posts/2015/12/xyz-3d-in-css</guid>
+        </item>
+    </channel>
