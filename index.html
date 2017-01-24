@@ -151,6 +151,71 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-hexo-test-2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/24/hexo-test-2/">hexo  test 2</a>
+    </h1>
+  
+
+        
+        <a href="/2017/01/24/hexo-test-2/" class="archive-article-date">
+  	<time datetime="2017-01-24T03:01:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="使用Flexible实现手淘H5页面的终端适配"><a href="#使用Flexible实现手淘H5页面的终端适配" class="headerlink" title="使用Flexible实现手淘H5页面的终端适配"></a>使用Flexible实现手淘H5页面的终端适配</h1><p>手淘设计师常选择iPhone6作为基准设计尺寸，交付给前端的设计尺寸是按 <strong>750px * 1334px</strong> 为准(高度会随着内容多少而改变)。前端开发人员通过一套适配规则自动适配到其他的尺寸。</p>
+<h3 id="物理像素-physical-pixel"><a href="#物理像素-physical-pixel" class="headerlink" title="物理像素(physical pixel)"></a>物理像素(physical pixel)</h3><p>物理像素又被称为设备像素，他是显示设备中一个最微小的物理部件。每个像素可以根据操作系统设置自己的颜色和亮度。正是这些设备像素的微小距离欺骗了我们肉眼看到的图像效果。</p>
+<h3 id="设备独立像素-density-independent-pixel"><a href="#设备独立像素-density-independent-pixel" class="headerlink" title="设备独立像素(density-independent pixel)"></a>设备独立像素(density-independent pixel)</h3><p>设备独立像素也称为密度无关像素，可以认为是计算机坐标系统中的一个点，这个点代表一个可以由程序使用的虚拟像素(比如说CSS像素)，然后由相关系统<strong>转换为物理像素</strong>。</p>
+<h3 id="设备像素比-device-pixel-ratio"><a href="#设备像素比-device-pixel-ratio" class="headerlink" title="设备像素比(device pixel ratio)"></a>设备像素比(device pixel ratio)</h3><p>设备像素比简称为dpr，其定义了物理像素和设备独立像素的对应关系。它的值可以按下面的公式计算得到：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">设备像素比 ＝ 物理像素 / 设备独立像素</div></pre></td></tr></table></figure></p>
+<p>在JavaScript中，可以通过 window.devicePixelRatio 获取到当前设备的dpr。而在CSS中，可以通过 -webkit-device-pixel-ratio ， -webkit-min-device-pixel-ratio 和 -webkit-max-device-pixel-ratio<br>进行媒体查询，对不同dpr的设备，做一些样式适配(这里只针对webkit内核的浏览器和webview)。</p>
+<p>iPhone6的设备宽度和高度为 375pt <em> 667pt ,可以理解为设备的独立像素；而其dpr为 2 ，根据上面公式，我们可以很轻松得知其物理像素为 750pt </em> 1334pt 。</p>
+<h2 id="lib-flexible是什么？"><a href="#lib-flexible是什么？" class="headerlink" title="lib-flexible是什么？"></a>lib-flexible是什么？</h2><p>lib-flexible 是一个制作H5适配的开源库，获取需要的JavaScript和CSS文件。<br>直接加载阿里CDN的文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;script src=&quot;http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js&quot;&gt;&lt;/script&gt;</div></pre></td></tr></table></figure></p>
+<p>另外强烈建议对JS做<strong>内联处理</strong> ，在所有资源加载之前执行这个JS。执行这个JS后，会在 <html> 元素上增加一个 data-dpr 属性，以及一个 font-size 样式。<br>JS会根据不同的设备添加不同的 data-dpr 值，比如说 2 或者 3 ，同时会给 html 加上对应的 font-size 的值，比如说 75px（根据屏幕的不同而不同，与dpr无关） 。<br>如此一来，页面中的元素，都可以通过 rem 单位来设置。他们会根据 html 元素的 font-size 值做相应的计算，从而实现屏幕的适配效果。<br><strong>不需要写\<meta name="viewport" \=""></strong><br>flexible 实际上<br>就是能过JS来动态改写 meta 标签<br>给 <html> 元素添加 data-dpr 属性，并且动态改写 data-dpr 的值<br>给 <html> 元素添加 font-size 属性，并且动态改写 font-size 的值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;html lang=&quot;en&quot; data-dpr=&quot;1&quot; style=&quot;font-size: 37.5px;&quot;&gt;</div></pre></td></tr></table></figure></html></html></html></p>
+<p>除此之外，在引入 lib-flexible 需要执行的JS之前，可以手动设置 meta 来控制 dpr 值，如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;meta name=&quot;flexible&quot; content=&quot;initial-dpr=2&quot; /&gt;</div></pre></td></tr></table></figure></p>
+<p>在此不建议手动强制设置 dpr ，因为在Flexible中，<strong>只对iOS设备进行 dpr 的判断</strong>，对于<strong>Android系列</strong>，始终认为其 <strong>dpr 为 1 </strong>。</p>
+<h2 id="把视觉稿中的-px-转换成-rem-宽高使用-rem"><a href="#把视觉稿中的-px-转换成-rem-宽高使用-rem" class="headerlink" title="把视觉稿中的 px 转换成 rem(宽高使用 rem)"></a>把视觉稿中的 px 转换成 rem(宽高使用 rem)</h2><p>首先，目前日常工作当中，视觉设计师给到前端开发人员手中的视觉稿尺寸一般是基于 640px 、 750px 以及 1125px 宽度为准。甚至为什么？大家应该懂的（考虑Retina屏）。</p>
+<p>目前Flexible会将视觉稿分成 100份 （主要为了以后能更好的兼容 vh 和 vw ），而每一份被称为一个单位 a 。同时 1rem 单位被认定为 10a 。针对我们这份视觉稿可以计算出：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">//针对iphone6</div><div class="line">1a   = 7.5px</div><div class="line">1rem = 75px</div></pre></td></tr></table></figure></p>
+<p>那么我们稿子就分成了 10a ，也就是整个宽度为 10rem ， <html> 对应的 font-size 为 75px ：<br>如果设计图上面宽度为176px,则转换为rem(176/75=2.3466667rem)</html></p>
+<h2 id="字号不使用-rem"><a href="#字号不使用-rem" class="headerlink" title="字号不使用 rem"></a>字号不使用 rem</h2><p>rem 并不适合用到段落文本上。所以在Flexible整个适配方案中，考虑文本还是<strong>使用 px</strong> 作为单位。只不过使用 <strong>[data-dpr]</strong> 属性来区分不同 dpr 下的文本字号大小。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&lt;!--这里值针对div进行字号设置--&gt;</div><div class="line">div &#123;</div><div class="line">	width: 1rem; </div><div class="line">	height: 0.4rem;</div><div class="line">	font-size: 12px; // 默认写上dpr为1的fontSize</div><div class="line">&#125;</div><div class="line">[data-dpr=&quot;2&quot;] div &#123;</div><div class="line">	font-size: 24px;</div><div class="line">&#125;</div><div class="line">[data-dpr=&quot;3&quot;] div &#123;</div><div class="line">	font-size: 36px;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>当然这只是针对于描述性的文本，比如说段落文本。但有的时候文本的字号也需要分场景的，<br>比如在项目中有一个slogan（标题）,业务方希望这个slogan能根据不同的终端适配。针对这样的场景，完全可以使用 rem 给slogan做计量单位。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/01/24/hexo-test-2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-test-hexo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
